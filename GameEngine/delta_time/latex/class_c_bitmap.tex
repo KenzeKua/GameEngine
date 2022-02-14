@@ -1,0 +1,51 @@
+\hypertarget{class_c_bitmap}{}\doxysection{C\+Bitmap Class Reference}
+\label{class_c_bitmap}\index{CBitmap@{CBitmap}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_c_bitmap_1_1_c_color}{C\+Color}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a419c4c4016ae507cc0e6945d6d256f1d}\label{class_c_bitmap_a419c4c4016ae507cc0e6945d6d256f1d}} 
+{\bfseries C\+Bitmap} (const char $\ast$Filename)
+\item 
+\mbox{\Hypertarget{class_c_bitmap_adc0f14c61b9c05f01511c30146a22832}\label{class_c_bitmap_adc0f14c61b9c05f01511c30146a22832}} 
+void {\bfseries Dispose} ()
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a350bf8c4697cef60116e561ca1846761}\label{class_c_bitmap_a350bf8c4697cef60116e561ca1846761}} 
+bool {\bfseries Load} (const char $\ast$Filename)
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a4952385b2d55d1cd46a40ac4f0dd3e75}\label{class_c_bitmap_a4952385b2d55d1cd46a40ac4f0dd3e75}} 
+bool {\bfseries Save} (const char $\ast$Filename, unsigned int Bit\+Count=32)
+\item 
+\mbox{\Hypertarget{class_c_bitmap_ae02f076ce05782a9fd1c080b5c72354d}\label{class_c_bitmap_ae02f076ce05782a9fd1c080b5c72354d}} 
+unsigned int {\bfseries Get\+Width} ()
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a2470a7cc272b6a6279339358a6adc93e}\label{class_c_bitmap_a2470a7cc272b6a6279339358a6adc93e}} 
+unsigned int {\bfseries Get\+Height} ()
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a80685e87d1030e1dfb70cb9743bbf0e4}\label{class_c_bitmap_a80685e87d1030e1dfb70cb9743bbf0e4}} 
+unsigned int {\bfseries Get\+Bit\+Count} ()
+\item 
+\mbox{\Hypertarget{class_c_bitmap_ae8684a6d2f868f7e3017733b4391971f}\label{class_c_bitmap_ae8684a6d2f868f7e3017733b4391971f}} 
+bool {\bfseries Get\+Bits} (void $\ast$Buffer, unsigned int \&Size)
+\item 
+\mbox{\Hypertarget{class_c_bitmap_aa4b08bf88cd2484aaeec821c4147c503}\label{class_c_bitmap_aa4b08bf88cd2484aaeec821c4147c503}} 
+void $\ast$ {\bfseries Get\+Bits} ()
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a95dc23263df682dba3f49e367481b77b}\label{class_c_bitmap_a95dc23263df682dba3f49e367481b77b}} 
+bool {\bfseries Get\+Bits} (void $\ast$Buffer, unsigned int \&Size, unsigned int Red\+Mask, unsigned int Green\+Mask, unsigned int Blue\+Mask, unsigned int Alpha\+Mask, bool Include\+Padding=true)
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a1e9d8ebf6270c3dac53193f001727fa1}\label{class_c_bitmap_a1e9d8ebf6270c3dac53193f001727fa1}} 
+bool {\bfseries Get\+Bits\+With\+Palette} (void $\ast$Buffer, unsigned int \&Size, unsigned int Bit\+Count, \mbox{\hyperlink{struct___b_g_r_a}{B\+G\+RA}} $\ast$\&Palette, unsigned int \&Palette\+Size, bool Optimal\+Palette=false, bool Include\+Padding=true)
+\item 
+\mbox{\Hypertarget{class_c_bitmap_a5d55890c3cc9cf8fa2c7316042528f36}\label{class_c_bitmap_a5d55890c3cc9cf8fa2c7316042528f36}} 
+bool {\bfseries Set\+Bits} (void $\ast$Buffer, unsigned int Width, unsigned int Height, unsigned int Red\+Mask, unsigned int Green\+Mask, unsigned int Blue\+Mask, unsigned int Alpha\+Mask=0)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+delta\+\_\+time/bitmap.\+h\end{DoxyCompactItemize}

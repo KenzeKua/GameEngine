@@ -1,0 +1,7 @@
+﻿  Application.cpp
+C:\Users\Valued User\Documents\KDU\June 2020\Game Engine\delta_time\delta_time\Application.cpp(1,10): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
+  main.cpp
+C:\Users\Valued User\Documents\KDU\June 2020\Game Engine\delta_time\delta_time\main.cpp(1,10): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
+  Sprite.cpp
+C:\Users\Valued User\Documents\KDU\June 2020\Game Engine\delta_time\delta_time\Sprite.cpp(1,10): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
+  Generating Code...

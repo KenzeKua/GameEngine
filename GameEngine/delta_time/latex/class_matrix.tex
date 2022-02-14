@@ -1,0 +1,106 @@
+\hypertarget{class_matrix}{}\doxysection{Matrix Class Reference}
+\label{class_matrix}\index{Matrix@{Matrix}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix_a2dba13c45127354c9f75ef576f49269b}\label{class_matrix_a2dba13c45127354c9f75ef576f49269b}} 
+\mbox{\hyperlink{class_matrix_a2dba13c45127354c9f75ef576f49269b}{Matrix}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_abcf708e864ed3d9db2c3b317c5e529ab}\label{class_matrix_abcf708e864ed3d9db2c3b317c5e529ab}} 
+\mbox{\hyperlink{class_matrix_abcf708e864ed3d9db2c3b317c5e529ab}{Matrix}} (const \mbox{\hyperlink{class_matrix}{Matrix}} \&other)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a5ec00f103780ba11e2f86f4d1dbf702c}\label{class_matrix_a5ec00f103780ba11e2f86f4d1dbf702c}} 
+\mbox{\hyperlink{class_matrix}{Matrix}} \& \mbox{\hyperlink{class_matrix_a5ec00f103780ba11e2f86f4d1dbf702c}{operator=}} (const \mbox{\hyperlink{class_matrix}{Matrix}} \&other)
+\begin{DoxyCompactList}\small\item\em Copy assignment operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_ab4f8e22e8db0983d75e090542f4d1f7a}\label{class_matrix_ab4f8e22e8db0983d75e090542f4d1f7a}} 
+\mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_ab4f8e22e8db0983d75e090542f4d1f7a}{operator$\ast$}} (const \mbox{\hyperlink{class_matrix}{Matrix}} \&other) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_matrix}{Matrix}} multiply. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_ac3260bdf95a729e2aba91688a1e45d1c}\label{class_matrix_ac3260bdf95a729e2aba91688a1e45d1c}} 
+\mbox{\hyperlink{class_vector}{Vector}} \mbox{\hyperlink{class_matrix_ac3260bdf95a729e2aba91688a1e45d1c}{operator$\ast$}} (const \mbox{\hyperlink{class_vector}{Vector}} \&vec) const
+\begin{DoxyCompactList}\small\item\em Transform vector with matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a629831a71eb4349905bf6fcad9371219}\label{class_matrix_a629831a71eb4349905bf6fcad9371219}} 
+void {\bfseries translate} (const \mbox{\hyperlink{class_vector}{Vector}} \&offset)
+\item 
+\mbox{\Hypertarget{class_matrix_ae23f817021383e3c8636a714dcba1d21}\label{class_matrix_ae23f817021383e3c8636a714dcba1d21}} 
+\mbox{\hyperlink{class_matrix}{Matrix}} {\bfseries transpose} ()
+\item 
+\mbox{\Hypertarget{class_matrix_ac4f5e7d4bb1bfd6586bd3384bd2a02b0}\label{class_matrix_ac4f5e7d4bb1bfd6586bd3384bd2a02b0}} 
+\mbox{\hyperlink{class_matrix}{Matrix}} {\bfseries inverse} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix_ad4827eed2702cf5fc64776892f8e7cf2}\label{class_matrix_ad4827eed2702cf5fc64776892f8e7cf2}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_ad4827eed2702cf5fc64776892f8e7cf2}{make\+Identity\+Matrix}} ()
+\begin{DoxyCompactList}\small\item\em Create identity matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a2b885ef8d64bf0bb5362b87fa293cdff}\label{class_matrix_a2b885ef8d64bf0bb5362b87fa293cdff}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_a2b885ef8d64bf0bb5362b87fa293cdff}{make\+Translation\+Matrix}} (const \mbox{\hyperlink{class_vector}{Vector}} \&pos)
+\begin{DoxyCompactList}\small\item\em Create translation matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a385ec747b6123f69dafa41eea4953ada}\label{class_matrix_a385ec747b6123f69dafa41eea4953ada}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_a385ec747b6123f69dafa41eea4953ada}{make\+Translation\+Matrix}} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Create translation matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a9301699844a766d55bac58cfbc28fd8a}\label{class_matrix_a9301699844a766d55bac58cfbc28fd8a}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_a9301699844a766d55bac58cfbc28fd8a}{make\+Scale\+Matrix}} (const \mbox{\hyperlink{class_vector}{Vector}} \&scale)
+\begin{DoxyCompactList}\small\item\em Create scale matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a2b9bd1f72c911a37d748c99b1147e021}\label{class_matrix_a2b9bd1f72c911a37d748c99b1147e021}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_a2b9bd1f72c911a37d748c99b1147e021}{make\+Scale\+Matrix}} (float x, float y, float z)
+\begin{DoxyCompactList}\small\item\em Create scale matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a9f8e8e8807dadfd4a87fc3068e7d686f}\label{class_matrix_a9f8e8e8807dadfd4a87fc3068e7d686f}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_a9f8e8e8807dadfd4a87fc3068e7d686f}{make\+Rotate\+Matrix}} (float angle, const \mbox{\hyperlink{class_vector}{Vector}} \&axis)
+\begin{DoxyCompactList}\small\item\em Create rotation matrix with angle axis. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a563b4868e264d58bcae6a34ad171e0c2}\label{class_matrix_a563b4868e264d58bcae6a34ad171e0c2}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_a563b4868e264d58bcae6a34ad171e0c2}{make\+Orient\+Matrix}} (const \mbox{\hyperlink{class_vector}{Vector}} \&x, const \mbox{\hyperlink{class_vector}{Vector}} \&y, const \mbox{\hyperlink{class_vector}{Vector}} \&z)
+\begin{DoxyCompactList}\small\item\em Create rotation matrix from orientation axis. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_matrix_a35f610e34b7958c4abbde1f9130e3f1d}\label{class_matrix_a35f610e34b7958c4abbde1f9130e3f1d}} 
+static \mbox{\hyperlink{class_matrix}{Matrix}} \mbox{\hyperlink{class_matrix_a35f610e34b7958c4abbde1f9130e3f1d}{make\+Look\+At\+Matrix}} (const \mbox{\hyperlink{class_vector}{Vector}} \&dir, const \mbox{\hyperlink{class_vector}{Vector}} \&up)
+\begin{DoxyCompactList}\small\item\em Create look at matrix. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix_aa6fc028a51d19c36dbe6a1ccc9b84454}\label{class_matrix_aa6fc028a51d19c36dbe6a1ccc9b84454}} 
+float \mbox{\hyperlink{class_matrix_aa6fc028a51d19c36dbe6a1ccc9b84454}{m\+Val}} \mbox{[}4\mbox{]}\mbox{[}4\mbox{]}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_matrix}{Matrix}} array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_matrix_af17b42f9e3862e58bbaa2f4c05e34194}\label{class_matrix_af17b42f9e3862e58bbaa2f4c05e34194}} 
+void {\bfseries invert\+Matrix\+General} (const float $\ast$m, float $\ast$out)
+\item 
+\mbox{\Hypertarget{class_matrix_a58151836d856d798b4aa69075c3fabaf}\label{class_matrix_a58151836d856d798b4aa69075c3fabaf}} 
+void {\bfseries invert\+Matrix} (const float $\ast$m, float $\ast$out)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static float \mbox{\hyperlink{class_matrix_ad2eec268a64adcfab4041b114d099106}{s\+Identity}} \mbox{[}4\mbox{]}\mbox{[}4\mbox{]}
+\begin{DoxyCompactList}\small\item\em Identity matrix. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_matrix_ad2eec268a64adcfab4041b114d099106}\label{class_matrix_ad2eec268a64adcfab4041b114d099106}} 
+\index{Matrix@{Matrix}!sIdentity@{sIdentity}}
+\index{sIdentity@{sIdentity}!Matrix@{Matrix}}
+\doxysubsubsection{\texorpdfstring{sIdentity}{sIdentity}}
+{\footnotesize\ttfamily float Matrix\+::s\+Identity\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    \{1.0f, 0.0f, 0.0f, 0.0f\},}
+\DoxyCodeLine{    \{0.0f, 1.0f, 0.0f, 0.0f\},}
+\DoxyCodeLine{    \{0.0f, 0.0f, 1.0f, 0.0f\},}
+\DoxyCodeLine{    \{0.0f, 0.0f, 0.0f, 1.0f\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Identity matrix. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+delta\+\_\+time/matrix.\+h\item 
+delta\+\_\+time/matrix.\+cpp\end{DoxyCompactItemize}

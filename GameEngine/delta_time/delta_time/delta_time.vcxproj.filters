@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Emitters">
+      <UniqueIdentifier>{a8b573e0-f711-4c03-a9d4-f8ba8cc4a5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emitters">
+      <UniqueIdentifier>{2aa62a6f-e7b7-4688-89fd-384630d109af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Affectors">
+      <UniqueIdentifier>{d5d20550-c665-4c4b-b738-83802af35d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Affectors">
+      <UniqueIdentifier>{56c2d499-413f-4dde-81d3-0987746e2192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{1982bd8c-9c72-480b-86e0-750a3e7cbbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{a45e5295-1dc0-4942-b72f-ced30c912657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Addons">
+      <UniqueIdentifier>{4fbc90df-1560-410f-a837-104aad40b8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Addons">
+      <UniqueIdentifier>{76719f00-20f0-418a-9d27-1b1bc399e7c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleEmitter.cpp">
+      <Filter>Source Files\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxEmitter.cpp">
+      <Filter>Source Files\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="EmitterShape.cpp">
+      <Filter>Source Files\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="RingEmitter.cpp">
+      <Filter>Source Files\Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorAffector.cpp">
+      <Filter>Source Files\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityAffector.cpp">
+      <Filter>Source Files\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleAffector.cpp">
+      <Filter>Source Files\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatorAffector.cpp">
+      <Filter>Source Files\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleAffector.cpp">
+      <Filter>Source Files\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Source Files\Addons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxEmitter.h">
+      <Filter>Header Files\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleEmitter.h">
+      <Filter>Header Files\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="EmitterShape.h">
+      <Filter>Header Files\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="RingEmitter.h">
+      <Filter>Header Files\Emitters</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorAffector.h">
+      <Filter>Header Files\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityAffector.h">
+      <Filter>Header Files\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleAffector.h">
+      <Filter>Header Files\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatorAffector.h">
+      <Filter>Header Files\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleAffector.h">
+      <Filter>Header Files\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap.h">
+      <Filter>Header Files\Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files\Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\Addons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+\hypertarget{class_game_object}{}\doxysection{Game\+Object Class Reference}
+\label{class_game_object}\index{GameObject@{GameObject}}
+Inheritance diagram for Game\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_object}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_object_a8f340c31ff5aa975ae2ed7439fb5d63f}\label{class_game_object_a8f340c31ff5aa975ae2ed7439fb5d63f}} 
+{\bfseries Game\+Object} (\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$sprite)
+\item 
+\mbox{\Hypertarget{class_game_object_a913d8f7bf31a6f8e880b28e55cbb7a9b}\label{class_game_object_a913d8f7bf31a6f8e880b28e55cbb7a9b}} 
+\mbox{\hyperlink{struct_color}{Color}} \mbox{\hyperlink{class_game_object_a913d8f7bf31a6f8e880b28e55cbb7a9b}{get\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Returns the color of \mbox{\hyperlink{class_game_object}{Game\+Object}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_object_a9aaddda732d44c43ac0eed6f5c034643}\label{class_game_object_a9aaddda732d44c43ac0eed6f5c034643}} 
+void \mbox{\hyperlink{class_game_object_a9aaddda732d44c43ac0eed6f5c034643}{set\+Texture}} (G\+Luint texture)
+\begin{DoxyCompactList}\small\item\em Sets the texture of the \mbox{\hyperlink{class_game_object}{Game\+Object}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}\label{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}} 
+void \mbox{\hyperlink{class_game_object_a180d6e9e7afa44b30ca678a95c6f4dad}{set\+Position}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Sets position of \mbox{\hyperlink{class_game_object}{Game\+Object}} on the X and Y axes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_object_a9ae7a5e779a083093250631f6634d269}\label{class_game_object_a9ae7a5e779a083093250631f6634d269}} 
+void \mbox{\hyperlink{class_game_object_a9ae7a5e779a083093250631f6634d269}{set\+Rotation}} (float rotation, float speed)
+\begin{DoxyCompactList}\small\item\em Sets rotation direction and rotation speed of \mbox{\hyperlink{class_game_object}{Game\+Object}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_object_a9e595881d4372303f8897a28d5a41721}\label{class_game_object_a9e595881d4372303f8897a28d5a41721}} 
+void \mbox{\hyperlink{class_game_object_a9e595881d4372303f8897a28d5a41721}{set\+Scale}} (bool original\+Size, float x, float y)
+\begin{DoxyCompactList}\small\item\em Sets scale of \mbox{\hyperlink{class_game_object}{Game\+Object}} using X and Y axes. Set original\+Size to true to follow the size of the texture loaded. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_object_afba1d20c07d74b9265f9ed9fabadfa66}\label{class_game_object_afba1d20c07d74b9265f9ed9fabadfa66}} 
+void \mbox{\hyperlink{class_game_object_afba1d20c07d74b9265f9ed9fabadfa66}{set\+Color}} (\mbox{\hyperlink{struct_color}{Color}} color)
+\begin{DoxyCompactList}\small\item\em Sets color of \mbox{\hyperlink{class_game_object}{Game\+Object}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_object_a4047294ee58255a83b04de328a4fb9f5}\label{class_game_object_a4047294ee58255a83b04de328a4fb9f5}} 
+void \mbox{\hyperlink{class_game_object_a4047294ee58255a83b04de328a4fb9f5}{add\+Position}} (float x, float y)
+\begin{DoxyCompactList}\small\item\em Adds to current position of \mbox{\hyperlink{class_game_object}{Game\+Object}}. Used to align with Emitter\+Shapes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_object_ad952e8ab193f501fcbbd9cdd7af38077}\label{class_game_object_ad952e8ab193f501fcbbd9cdd7af38077}} 
+void {\bfseries update} (float delta\+Time)
+\item 
+\mbox{\Hypertarget{class_game_object_a85b6bcc2758c5d37b48d42b6fe2f63e6}\label{class_game_object_a85b6bcc2758c5d37b48d42b6fe2f63e6}} 
+void {\bfseries draw} (Blending\+Mode blend\+Mode)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_object_a4d6689ab85a80852b80b958d915715f7}\label{class_game_object_a4d6689ab85a80852b80b958d915715f7}} 
+float {\bfseries m\+\_\+rotation\+Inc}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_object_ac117fc8efcc2ccb52e6536c87df8fad1}\label{class_game_object_ac117fc8efcc2ccb52e6536c87df8fad1}} 
+\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$ {\bfseries m\+\_\+sprite}
+\item 
+\mbox{\Hypertarget{class_game_object_afa0407cc34c930662a3d08fae2fd9e6d}\label{class_game_object_afa0407cc34c930662a3d08fae2fd9e6d}} 
+G\+Luint {\bfseries m\+\_\+passed\+Texture}
+\item 
+\mbox{\Hypertarget{class_game_object_a2dc0037b0a5381ebcc6b7e0ec55b5f10}\label{class_game_object_a2dc0037b0a5381ebcc6b7e0ec55b5f10}} 
+float {\bfseries m\+\_\+posX}
+\item 
+\mbox{\Hypertarget{class_game_object_aea0fa5b26acc81adcd81f0c38e5eac14}\label{class_game_object_aea0fa5b26acc81adcd81f0c38e5eac14}} 
+float {\bfseries m\+\_\+posY}
+\item 
+\mbox{\Hypertarget{class_game_object_a09e8b5b24ec65a8f8200e4b92b04256a}\label{class_game_object_a09e8b5b24ec65a8f8200e4b92b04256a}} 
+float {\bfseries m\+\_\+rotation\+Dir}
+\item 
+\mbox{\Hypertarget{class_game_object_a552fd49b4e8afad140f9757a9201335a}\label{class_game_object_a552fd49b4e8afad140f9757a9201335a}} 
+float {\bfseries m\+\_\+rot\+Speed}
+\item 
+\mbox{\Hypertarget{class_game_object_a66946c7a0c1949fb1dff716cb378ef22}\label{class_game_object_a66946c7a0c1949fb1dff716cb378ef22}} 
+bool {\bfseries m\+\_\+original\+Scale}
+\item 
+\mbox{\Hypertarget{class_game_object_ab4047a4c6c2a559c01fe304d2ae2bde7}\label{class_game_object_ab4047a4c6c2a559c01fe304d2ae2bde7}} 
+float {\bfseries m\+\_\+scaleX}
+\item 
+\mbox{\Hypertarget{class_game_object_a2b8f7663f2ff0b8398229547668bcfca}\label{class_game_object_a2b8f7663f2ff0b8398229547668bcfca}} 
+float {\bfseries m\+\_\+scaleY}
+\item 
+\mbox{\Hypertarget{class_game_object_a1771d24fddc27ba4f1940aaaf8a103eb}\label{class_game_object_a1771d24fddc27ba4f1940aaaf8a103eb}} 
+\mbox{\hyperlink{struct_color}{Color}} {\bfseries m\+\_\+color}
+\item 
+\mbox{\Hypertarget{class_game_object_aa5824090768e419dd23e738e8df5279a}\label{class_game_object_aa5824090768e419dd23e738e8df5279a}} 
+Blending\+Mode {\bfseries m\+\_\+blend}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+delta\+\_\+time/Game\+Object.\+h\item 
+delta\+\_\+time/Game\+Object.\+cpp\end{DoxyCompactItemize}
