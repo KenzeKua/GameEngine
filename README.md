@@ -1,6 +1,9 @@
 # GameEngine
 Game engine made in C++ with OpenGL.
 
+== Notes ==
+SDKs are the Mali and glfw files
+
 == Controls ==
 1 - Toggle velocity affector  
 
