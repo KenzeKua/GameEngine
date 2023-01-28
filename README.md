@@ -1,5 +1,7 @@
 # GameEngine
-Game engine made in C++ with OpenGL.
+Game engine made in C++ with OpenGL. 
+
+Itch.Io : https://caynyian.itch.io/2d-game-engine
 
 == Notes ==  
 SDKs are the Mali and glfw files
